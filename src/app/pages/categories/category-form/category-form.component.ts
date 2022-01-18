@@ -35,6 +35,7 @@ export class CategoryFormComponent implements OnInit, AfterContentChecked {
     this.setCurrentAction()
     this.buildCategoryForm()
     this.loadCategory()
+    this.serverErrorMessages = []
   }
 
   submitForm() {
