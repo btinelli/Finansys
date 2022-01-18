@@ -1,6 +1,4 @@
 import { Observable } from 'rxjs';
-import { Observable } from 'rxjs';
-
 import { throwError } from 'rxjs';
 import { Category } from './category.model';
 import { catchError, map, flatMap } from 'rxjs/operators';
